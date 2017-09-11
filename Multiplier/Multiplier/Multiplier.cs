@@ -12,5 +12,22 @@ namespace Multiplier
         {
             return l1 * l2;
         }
+
+        public long While(long left, long right) {
+            long total = 0;
+            long loopVar = 0;
+
+            while (loopVar < left)
+            {
+                total += right;
+                loopVar++;
+            }
+            return total;
+        }
+
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
