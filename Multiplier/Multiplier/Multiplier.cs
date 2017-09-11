@@ -13,6 +13,17 @@ namespace Multiplier
             return l1 * l2;
         }
 
+        public long ForLoop(int a)
+        {
+            int total = 0;
+            for (int i = 0; i < a; i++)
+            {
+                total += i;
+            }
+
+            return total;
+        }
+
         public long While(long left, long right) {
             long total = 0;
             long loopVar = 0;

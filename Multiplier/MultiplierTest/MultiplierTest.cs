@@ -18,6 +18,17 @@ namespace MultiplierTest
         }
 
         [TestMethod]
+        public void ForLoop()
+        {
+            //arrange
+            Multiplier.Multiplier myMultiplier = new Multiplier.Multiplier();
+
+            var actual = myMultiplier.ForLoop(20);
+
+            Assert.AreEqual(190, actual);
+        }
+
+        [TestMethod]
         public void While()
         {
             //arrange
