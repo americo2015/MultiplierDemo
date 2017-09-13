@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileConversion.cs" />
+    <Compile Include="ListHandler.cs" />
     <Compile Include="Multiplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PurchaseCalculation.cs" />
