@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierLib", "Multiplier
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTest", "MultiplierTest\MultiplierTest.csproj", "{563C70AB-DA78-4393-95FD-77CF19AE6FC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryTellerTestLib", "StoryTellerTest\StoryTellerTestLib.csproj", "{831C372F-0B92-428D-9FAB-8EDF2EA45C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryTellerLib", "StoryTellerLib\StoryTellerLib.csproj", "{684A0536-1388-4EFC-885C-0B34CDBB494E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{563C70AB-DA78-4393-95FD-77CF19AE6FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563C70AB-DA78-4393-95FD-77CF19AE6FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563C70AB-DA78-4393-95FD-77CF19AE6FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831C372F-0B92-428D-9FAB-8EDF2EA45C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831C372F-0B92-428D-9FAB-8EDF2EA45C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831C372F-0B92-428D-9FAB-8EDF2EA45C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831C372F-0B92-428D-9FAB-8EDF2EA45C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684A0536-1388-4EFC-885C-0B34CDBB494E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684A0536-1388-4EFC-885C-0B34CDBB494E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684A0536-1388-4EFC-885C-0B34CDBB494E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684A0536-1388-4EFC-885C-0B34CDBB494E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
