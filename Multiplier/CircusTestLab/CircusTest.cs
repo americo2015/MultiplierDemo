@@ -8,11 +8,11 @@ namespace CircusTestLab
     public class CircusTest
     {
         [TestMethod]
-        public void CirkusRapport()
+        public void TestToString()
         {
             //Arrange
             Cirkus sut = new Cirkus("Elefanten");
-            Artist clown = new Artist("Clownen Surskrat");
+            Artist clown = new Artist("Clownen Surskratt");
             Artist lindansare = new Artist("Lindansaren Repo");
             sut.Anställ(clown);
             sut.Anställ(lindansare);
@@ -21,6 +21,7 @@ namespace CircusTestLab
             sut.ArtistUppträdande(lindansare);
 
             var expected = "Cirkusen Elefanten har 2 artister. Clownen Surskratt har uppträtt 1 gång. Lindansaren Repo har uppträtt 2 gånger.";
+            
 
             // Act 
             string actual = sut.ToString();

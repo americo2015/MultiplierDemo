@@ -8,7 +8,7 @@ namespace CirkusLib
 {
     public class Artist
     {
-        private string name;
+        public string name;
 
         public Artist(string name)
         {
