@@ -67,6 +67,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlideShow", "SlideShow", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowApp", "SlideShowApp\SlideShowApp.csproj", "{9C7F67FB-6AB3-47E9-8B9F-D6A08701A909}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerForm", "CustomerForm", "{5D18BDF3-AFF2-4393-BB46-86B9AD3723C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerFormApp", "CustomerFormApp\CustomerFormApp.csproj", "{C9D4F19E-239A-40F8-ACD3-BB1356CF8E06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +165,10 @@ Global
 		{9C7F67FB-6AB3-47E9-8B9F-D6A08701A909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C7F67FB-6AB3-47E9-8B9F-D6A08701A909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C7F67FB-6AB3-47E9-8B9F-D6A08701A909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D4F19E-239A-40F8-ACD3-BB1356CF8E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D4F19E-239A-40F8-ACD3-BB1356CF8E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D4F19E-239A-40F8-ACD3-BB1356CF8E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D4F19E-239A-40F8-ACD3-BB1356CF8E06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +192,7 @@ Global
 		{65667095-6A3D-4F69-BB20-F8FA6652363F} = {F41ED084-09D6-490F-B458-38E0845073EC}
 		{BCDBF394-5A6F-44B0-9E64-CF3BBC2AB4B9} = {4892747B-FF4F-4096-8C05-644FD61C5516}
 		{9C7F67FB-6AB3-47E9-8B9F-D6A08701A909} = {247F1085-7A40-46D3-A994-B6B7933BA8B9}
+		{C9D4F19E-239A-40F8-ACD3-BB1356CF8E06} = {5D18BDF3-AFF2-4393-BB46-86B9AD3723C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76D58D52-2461-4576-B60F-D053AD4C12E4}
