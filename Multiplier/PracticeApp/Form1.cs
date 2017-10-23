@@ -29,8 +29,8 @@ namespace PracticeApp
         private void button1_Click(object sender, EventArgs e)
         {
             
-            //var birthDate = dateBirth.Value.ToString("yyyy-MM-dd");
-            var birthDate = dateBirth.Value;
+            var birthDate = dateBirth.Value.ToString("yyyy-MM-dd");
+            //var birthDate = dateBirth.Value;
             var name = txtName.Text;
             var phone = txtPhoneNumber.Text;
             
@@ -42,7 +42,7 @@ namespace PracticeApp
             saveFileDialog1.ShowDialog();
 
             
-            File.AppendAllText(saveFileDialog1.FileName, convertedText);
+            File.WriteAllText(saveFileDialog1.FileName, convertedText);
             
         }
 
@@ -52,17 +52,13 @@ namespace PracticeApp
 
             var fileContent = File.ReadAllText(openFileDialog1.FileName);
 
-            string[] words = fileContent.Split(';');
-            
-            DateTime dt = Convert.ToDateTime(words[0]);
-            
-            var age = (DateTime.Now.Year - dt.Year);
+            var practice = new Practice();
 
-            var textPart = $"{words[1]} är {age} år gammal och har telfonnummer {words[2]}";
-
+            var newText = practice.Transformation(fileContent);
+            
             saveFileDialog2.ShowDialog();
 
-            File.AppendAllText(saveFileDialog2.FileName, textPart);
+            File.WriteAllText(saveFileDialog2.FileName, newText);
         }
     }
 }
